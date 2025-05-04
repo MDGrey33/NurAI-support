@@ -1,0 +1,16 @@
+[project]
+name = "nurai-support"
+version = "0.1.0"
+description = "A support assistant leveraging historic incident data, integrating with Jira, Google Chat, Chroma, and PostgreSQL."
+authors = [
+    {name = "Roland Abou Younes"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
